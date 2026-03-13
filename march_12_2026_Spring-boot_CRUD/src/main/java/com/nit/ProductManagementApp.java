@@ -12,15 +12,6 @@ import com.nit.sbeans.Product;
 @SpringBootApplication
 public class ProductManagementApp {
 
-	private final ControllerLayer controllerLayer;
-
-	private final Product product;
-
-	ProductManagementApp(Product product, ControllerLayer controllerLayer) {
-		this.product = product;
-		this.controllerLayer = controllerLayer;
-	}
-
 	public static void main(String[] args) {
 		ConfigurableApplicationContext ctx = SpringApplication.run(ProductManagementApp.class, args);
 
@@ -62,9 +53,7 @@ public class ProductManagementApp {
 			String pDes = IO.readln("Enter product description");
 			double price = Double.parseDouble(IO.readln("Enter product price"));
 			Product p = new Product(pId, pName, pDes, price);
-			System.out.println("object created");
 			controller.updateProduct(p);
-			System.out.println("data updated");
 		}
 		default -> {
 			System.err.println("Thank you ");
