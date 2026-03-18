@@ -9,11 +9,8 @@ StudentRunner (Main/Runner class)
 Student Class Fields:
 
 id
-
 name
-
 course
-
 fee
 
 Responsibility:
