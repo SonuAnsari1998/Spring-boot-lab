@@ -1,12 +1,8 @@
 /*Task 6 — Order Nested Object System (ConfigurationProperties)
-march_18_2026_Spring-Boot_06_ConfigurationProperties_Order_Nested_Object_System
-
 Classes Involved:
 
 Order
-
 Customer
-
 OrderRunner
 
 Order Class Fields:
