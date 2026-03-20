@@ -1,5 +1,4 @@
 /*Task 5 — Library Map System (ConfigurationProperties)
-march_18_2026_Spring-Boot_05_ConfigurationProperties_Library_Map_System
 
 Classes Involved:
 
