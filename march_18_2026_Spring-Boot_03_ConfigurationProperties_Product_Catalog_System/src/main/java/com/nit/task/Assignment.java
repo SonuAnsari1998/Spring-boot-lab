@@ -1,6 +1,4 @@
 /*Task 3 — Product Catalog System (ConfigurationProperties)
-march_18_2026_Spring-Boot_03_ConfigurationProperties_Product_Catalog_System
-
 Classes Involved:
 
 Store
