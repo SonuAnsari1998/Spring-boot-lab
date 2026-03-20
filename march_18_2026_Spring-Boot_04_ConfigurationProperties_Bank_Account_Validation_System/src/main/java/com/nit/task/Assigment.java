@@ -1,5 +1,4 @@
 /*Task 4 — Bank Account Validation System (ConfigurationProperties)
-march_18_2026_Spring-Boot_04_ConfigurationProperties_Bank_Account_Validation_System
 
 Classes Involved:
 
